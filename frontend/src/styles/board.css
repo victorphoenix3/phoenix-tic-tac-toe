@@ -1,0 +1,50 @@
+.go-back {
+	display: inline-block;
+	margin-bottom: 16px;
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px solid blue;
+}
+
+.go-back:hover {
+	color: blue;
+}
+
+.board-wrapper {
+  display: flex;
+	flex-flow: row wrap;
+}
+
+.board {
+	width: 250px;
+}
+
+.board-row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.board-heading {
+	margin-top: 0;
+	margin-bottom: 8px;
+	font: 700 18px / 1.618 sans-serif;
+	list-style-type: none;
+	color: blue;
+}
+
+.history {
+	margin-left: 18px;
+}
+
+.history-list {
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	color: var(--color-gray-dark);
+	list-style-type: none;
+}
+
+.board-button {
+	margin: 32px auto 0;
+}
